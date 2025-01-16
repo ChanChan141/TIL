@@ -1,4 +1,4 @@
 | 날짜       | 주제          | 키워드                                                                                 | 메모                                             |
 |------------|---------------|---------------------------------------------------------------------------------------|----------------------------------------------------|
-| 25-01-16 | 로컬 작업     | `git init`, `git add`, `git commit`, `git commit --amend`, `git status`, `git log --oneline` | repository가 중첩되지 않게 구성할 것 |
-|            | 원격 작업     | `git clone`, `git remote add`, `git push`, `git pull`                                   | `git pull`은 충돌이 발생할 수 있으므로 사용 전 확인 |
+| 25.01.16 | 로컬 작업     | `git init`, `git add`, `git commit`, `git commit --amend`, `git status`, `git log --oneline` | repository가 중첩되지 않게 구성할 것 |
+|            | 원격 작업     | `git clone`, `git remote add`, `git push`, `git pull`                                   | `git pull`은 충돌이 발생할 수 있으므로 사용 전 확인 |g
