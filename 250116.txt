@@ -1,0 +1,14 @@
+사용
+git init : 해당 폴더에 repository 생성(.git폴더 하에 stage가 만들어짐)
+git add : 변경 내용을 stage에 올림
+git commit -m "~~" : 설명 추가
+git commit --amend : 설명 수정
+git status : git 현재상태 확인
+git log --oneline: 깃 log 확인
+
+
+원격
+git clone (url) : github에 있는 repository를 복사해서 가져옴. git clone 사용 시 push, pull에서 설정을 안해도 됨.
+git remote add (저장소 별칭 ex: origin) (url): remote repository 연결하기
+git push 별칭 master : github에 데이터 저장
+git pull 별칭 master: github에서 데이터 가져오기
