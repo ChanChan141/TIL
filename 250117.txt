@@ -1,0 +1,104 @@
+python은 선언하지 않음 - 헷갈림
+for, while, if 활용
+
+for_test.py
+# numbers = [10,20,30]
+# for i in numbers:
+#     print(i)
+
+# for i in [10,20,30]:
+#     print(i)
+
+
+
+
+# for i in range(10):    
+#     print(i, "hello")
+    
+# t = list(range(10,2,-2))
+# print(t)
+
+# numbers = [3, 6, 7, 5, 2, 4, 9]
+# cnt = 0
+# even_cnt = 0
+# for numbers in numbers:
+#     if numbers% 2 == 1:
+#         cnt = cnt+1
+#     else:
+#         even_cnt = even_cnt + 1
+# print(cnt)
+# print(even_cnt)
+
+# print('12 13 3'.split())
+
+# numbers = input().split()
+# print(numbers)
+
+# 입력받아서 갯수가 몇개인지, 합 , 평균
+#홀수의 합을내고 짝수의 갯수
+# 홀수가 없을때 0 idx -1 출력
+# numbers = list(map(int, input().split()))
+# cnt = 0
+# total = 0
+# holsu = 0
+# zzaksu = 0
+# endholsu = idx = -1
+# for numbers in numbers:
+#     cnt = cnt + 1
+#     total = total + numbers
+
+#     if numbers %2 ==1:
+#         holsu = holsu + numbers
+#         endholsu = numbers
+#         idx = cnt
+#     elif numbers %2 == 0:
+#         zzaksu = zzaksu + 1
+    
+#     for idx in range(len(numbers)):
+#         print(idx, numbers[idx])
+
+
+# print(cnt, total, total/cnt, holsu, zzaksu, endholsu, idx)
+
+func_test.py
+# 2 3
+# n, m = map(int, input().split())
+# cnt = 0
+# for i in range(n):
+#     s = list(input())
+#     # print(s)
+#     for k in s:
+#         if k == "o":
+#             cnt +=1
+# print(cnt)
+
+# b = int('23')
+# print(b)
+
+# a = 3
+# b = print(a)
+# print(b)
+
+# print(print(1))
+# len('abd')
+
+# l = len('aaa')
+# print(l)
+
+# print(len('abd'), len([2,3,4,5]))
+
+# print(sorted([3,5,6,1]))
+
+# l = [3,5,6,1]
+# print(l.sort())
+# print(l)
+
+
+lunch.py
+# import random
+
+# lunch = ["장각누룽지탕", "산더미소불고기","타워함박스테이크","팔보채해물덮밥","신라면"]
+
+# for i in range(10):
+#     select = random.choice(lunch)
+#     print(select)
