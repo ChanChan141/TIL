@@ -1,0 +1,143 @@
+
+# def add(a,b):
+#     result = a+b
+#     a = 10
+#     print(global_var)
+#     global_var = global_var+1
+
+# # 만약 내가 아무것도 안쓰면 return None이됨
+
+# def my_len(l):
+#     l[0] = -1
+#     print(l)
+
+# numbers = [1,2,3]
+# t = numbers
+# my_len(numbers)
+# print(numbers)
+
+
+# a = 2
+# b = 3
+# global_var = 1
+# result =0
+# add(a,b)
+# print(result)
+
+# add(4,5)
+# print(result)
+
+# def factorial(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         result = n * factorial(n-1)
+#         return result
+
+# t = factorial(5)
+# print(t)
+
+#2**5
+# def square(n):
+#     if n == 1:
+#         return 2
+
+#     result = 2*square(n-1)
+#     return result
+
+# print(square(5))
+
+
+# def test():
+#     for i in range(5):
+#         for j in range(10):
+#             if i==2 and j==3:
+#                 return
+            
+# test()
+# print("종료2")
+
+
+# def func1(a):
+#     a = 20
+#     print(a)
+#     return
+
+# def func2(b):
+#     func1(b)
+#     print(b)
+#     b+=30
+#     return
+
+# a = 10              #20 
+# func1(a)            #20, 20
+# func2(a+10)         # 10
+# print(a)
+
+
+# # 1. 절댓값을 반환하는 함수 abs를 사용하여 아래 변수에 담긴 값의 절댓값을 출력하시오.
+# negative = -3
+# print(abs(negative))
+
+# # 2. 아래 변수에 담긴 값의 boolean 값을 출력하시오.
+# empty_list = []
+# print(bool(empty_list))
+
+# # 3. 주어진 리스트가 가진 모든 값을 더한 결과를 출력하시오.
+# my_list = [1, 2, 3, 4, 5]
+# print(sum(my_list))
+
+# # 4. 주어진 정렬을 오름차순으로 정렬한 결과를 출력하시오.
+# unsorted_list = ['하', '교', '캅', '의', '지', '가']
+# unsorted_list.sort()
+# print(unsorted_list)
+
+# def my_multi(number_1, number_2):
+#     result_1 = number_1*number_2
+#     return result_1
+# print(my_multi(2,3))
+
+# # my_multi(2, 3) 결과 : 6
+# # 함수를 수정하고 호출 결과를 result_1 변수에 할당하여 출력하시오.
+
+# def is_negative(number):
+#     if number <= 0:
+#         return True
+#     else:
+#         return False
+# result_2 = is_negative(3)
+# print(result_2)
+
+# # is_negative(3) 결과 : False
+# # 함수를 수정하고 호출 결과를 result_2 변수에 할당하여 출력하시오.
+
+
+# def default_arg_func(default="기본 값"):
+#     return default
+
+# result_3 = default_arg_func()
+# result_4 = default_arg_func('다른 값')
+
+# print(result_3)
+# print(result_4)
+
+
+
+
+# pro_num = 1000
+# global_data = {'subject': 'python', 'day': 3, 'title': '함수 활용하기'}
+
+# def create_data(subject, day, title=None):
+#     global pro_num
+#     pro_num += 1
+#     data = {'과목':subject, '일차':day, '제목':title, '문제번호': pro_num}
+#     return data
+
+# result_1 = create_data('python',3)
+# result_2 = create_data(day=1,subject='web',title='web 연습하기')
+# result_3 = create_data(**global_data)
+# print(result_1)
+# print(result_2)
+# print(result_3)
+
+
